@@ -1,12 +1,11 @@
 import React from 'react';
+import BingoForm from '../features/bingo/BingoForm';
 
 type BingoProps = {};
 
 const Bingo: React.FC<BingoProps> = () => {
   return (
-    <div>
-      <h1>Bingo</h1>
-    </div>
+    <BingoForm></BingoForm>
   );
 };
 
